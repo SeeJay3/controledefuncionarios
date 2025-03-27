@@ -1,11 +1,10 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import { Routes } from './src/routes';
+import { StatusBar } from 'expo-status-bar';
 
-export default function App() {
+export function Totais() {
   return (
     <View style={styles.container}>
-      <Routes/>
+      <Text>Total de Funcionários</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -14,6 +13,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'blue',
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
 });
