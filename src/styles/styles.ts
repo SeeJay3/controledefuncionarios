@@ -9,7 +9,7 @@ export const styles = StyleSheet.create({
     backgroundColor: colors.gray[100],
     fontFamily: fontFamily.bold,
     justifyContent: 'center',
-    padding: 5,
+    padding: 3,
     marginBottom: 0,
   },
   title:{
@@ -51,7 +51,7 @@ export const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: colors.gray[100],
     paddingHorizontal: 20,
-    paddingVertical: 40,
+    paddingVertical: 20,
     justifyContent: 'flex-start',
 },
 box: {
@@ -79,11 +79,11 @@ label: {
 },
 transactions: {
   flex: 1,
-  padding: 24,
-  marginTop: 3,
+  padding: 15,
+  marginTop: 10,
 },
 header: {
-  marginTop: 70,
+  marginTop: 0,
   width: '100%',
   height: 40,
   //backgroundColor: colors.gray[200],

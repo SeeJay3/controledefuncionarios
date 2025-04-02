@@ -1,14 +1,14 @@
 import { useState, useEffect, useCallback } from 'react'
 import { useFocusEffect } from '@react-navigation/native'
 import { FlatList, View, Text } from 'react-native'
-
 import { styles } from '../../styles/styles'
-
 import { registerGetAll } from '../../storage/register/registerGetAll'
-
 import { RegisterStorageDTO } from '../../storage/register/RegisterStorageDTO'
-
 import { TransactionExpenses } from '../../components/TransactionExpenses'
+
+
+
+
 
 
 export function Listagem() {
@@ -25,11 +25,9 @@ export function Listagem() {
   }, []))
 
   return (
-    <View style={styles.container}>
-
-      <View style={styles.container}>
+        <View style={styles.container}>
         <Text style={styles.title}>Listagem de Funcionários</Text>
-      </View>
+      
 
 
       <View style={styles.transactions}>

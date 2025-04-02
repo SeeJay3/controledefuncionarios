@@ -7,7 +7,8 @@ export const styles = StyleSheet.create({
     backgroundColor: colors.gray[300],
     borderRadius: 5,
     padding: 17,
-    marginBottom: 14
+    marginBottom: 14,
+    flexDirection: 'column'
   },
   cpf: {
     fontFamily: fontFamily.bold,
@@ -26,9 +27,9 @@ export const styles = StyleSheet.create({
     marginTop: 2,
   },
   footer: {
-    flexDirection: 'row',
+    flexDirection: 'column',
     justifyContent: 'space-between',
-    alignItems: 'center',
+    alignItems: 'flex-start',
     marginTop: 19
   },
   section: {
@@ -39,7 +40,8 @@ export const styles = StyleSheet.create({
   salary: {
     fontSize: 14,
     fontFamily: fontFamily.bold,
-    color: colors.gray[500]
+    color: colors.gray[500],
+    flexDirection: 'column'
   }
 })
 
